@@ -10,8 +10,8 @@ jobs:
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
   I-Have-Code:
-    docker:
-      - image: alpine:3.7
+    machine:
+      - image: ubuntu-2004:202101-01
     parallelism: 3
     steps:
       - checkout
