@@ -11,7 +11,7 @@ jobs:
             echo 'This is the delivery pipeline'
   I-Have-Code:
     machine:
-      - image: ubuntu-2004:202101-01
+      image: ubuntu-2004:202101-01
     parallelism: 3
     steps:
       - checkout
