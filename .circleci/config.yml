@@ -12,7 +12,7 @@ jobs:
   I-Have-Code:
     docker:
       - image: alpine:3.7
-    parallelism: 6
+    parallelism: 3
     steps:
       - checkout
       - run:
